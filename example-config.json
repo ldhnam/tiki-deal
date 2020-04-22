@@ -1,0 +1,27 @@
+{
+    "users": [
+        {
+            "email": "",
+            "password": "",
+            "grant_type": "password"
+        }
+    ],
+    "login_url": "https://tiki.vn/api/v2/tokens",
+    "add_to_cart_url": "https://tiki.vn/api/v2/carts/mine/items",
+    "get_cart_url": "https://tiki.vn/api/v2/carts/mine?include=shipping_methods,shipping_address,payment_method",
+    "delete_item_url": "https://tiki.vn/api/v2/carts/mine/items/%d",
+    "shipping_plan_url": "https://tiki.vn/api/v2/carts/mine/shippings_plans/1",
+    "checkout_url": "https://tiki.vn/api/v2/carts/mine/checkout",
+    "item": {
+        "products": {
+            "product_id": 196000,
+            "quantity": 5
+        }
+    },
+    "checkout": {
+        "payment": {
+            "method": "cod"
+        }
+    },
+    "order_quantity": 5
+}
